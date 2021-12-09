@@ -1,4 +1,5 @@
 module com.icuxika.kt.framework {
+    requires java.base;
     requires kotlin.stdlib;
     requires org.slf4j;
 
