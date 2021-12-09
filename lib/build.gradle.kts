@@ -93,5 +93,13 @@ publishing {
                 }
             }
         }
+
+        repositories {
+            maven {
+                val releasesRepoUrl = uri(layout.buildDirectory.dir("repos/releases"))
+                val snapshotsRepoUrl = uri(layout.buildDirectory.dir("repos/snapshots"))
+                url = if (version.toString().endsWith("SNAPSHOT")) snapshotsRepoUrl else releasesRepoUrl
+            }
+        }
     }
 }
