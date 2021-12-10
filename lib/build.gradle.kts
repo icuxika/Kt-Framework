@@ -25,6 +25,8 @@ dependencies {
 
     // Logger
     implementation("org.slf4j:slf4j-api:1.7.32")
+    // Json
+    implementation("com.google.code.gson:gson:2.8.9")
 }
 
 testing {
