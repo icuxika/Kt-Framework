@@ -1,5 +1,6 @@
-package com.icuxika
+package com.icuxika.kt.framework
 
+import com.icuxika.kt.framework.Library
 import kotlin.test.Test
 import kotlin.test.assertTrue
 

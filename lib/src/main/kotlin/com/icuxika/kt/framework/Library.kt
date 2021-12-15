@@ -1,6 +1,6 @@
-package com.icuxika
+package com.icuxika.kt.framework
 
-import com.icuxika.extensions.logger
+import com.icuxika.kt.framework.extensions.logger
 
 class Library {
     fun someLibraryMethod(): Boolean {

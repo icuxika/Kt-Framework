@@ -1,4 +1,4 @@
-package com.icuxika.extensions
+package com.icuxika.kt.framework.extensions
 
 import java.io.File
 import java.io.InputStream

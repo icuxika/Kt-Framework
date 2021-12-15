@@ -53,7 +53,7 @@ tasks {
 }
 
 group = "com.icuxika"
-version = "0.0.9"
+version = "0.0.10"
 
 val compileKotlin: org.jetbrains.kotlin.gradle.tasks.KotlinCompile by tasks
 val compileJava: JavaCompile by tasks

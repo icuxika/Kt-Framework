@@ -1,4 +1,4 @@
-package com.icuxika.extensions
+package com.icuxika.kt.framework.extensions
 
 fun String.queryToMap(): Map<String, String> =
     try {

@@ -1,4 +1,4 @@
-package com.icuxika.extensions
+package com.icuxika.kt.framework.extensions
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
