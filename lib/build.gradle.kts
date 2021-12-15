@@ -53,7 +53,11 @@ tasks {
 }
 
 group = "com.icuxika"
-version = "0.0.8"
+version = "0.0.9"
+
+val compileKotlin: org.jetbrains.kotlin.gradle.tasks.KotlinCompile by tasks
+val compileJava: JavaCompile by tasks
+compileKotlin.destinationDirectory.set(compileJava.destinationDirectory)
 
 java {
     withSourcesJar()
